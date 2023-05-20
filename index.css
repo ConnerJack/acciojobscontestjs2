@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    padding: 20px 30px;
+    text-align: left;
+}
+
+select {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    text-align-last: center ;
+    margin-bottom: 30px;
+}
+
+
+.header {
+    margin-bottom: 30px;
+}
+.card {
+    display: flex;
+    border: 1px solid white;
+    width: 500px;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.filterbtn{
+    background-color: white;
+    padding: 10px 40px;
+    color: black;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.adduserdiv {
+    margin-top: 40px ;
+}
+
+
+
+.inputsection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputgrp{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.inputgrp input {
+   height: 30px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+}
+
+.addbtn {
+    background-color: white;
+    padding: 10px 40px;
+    color: black;
+    margin-top: 30px;
+    font-size: 15px;
+}

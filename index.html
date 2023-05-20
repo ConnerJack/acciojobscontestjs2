@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div>
+            <div class="header">
+                <h2>Filter ui cards via their profession.</h2>
+            </div>
+            <select id="profession">
+                <option selected hidden disabled>Profession</option>
+                <option value="developer">Developer</option>
+                <option value="admin">Admin</option>
+            </select>
+
+            <div id="cardcon">
+            </div>
+
+           
+            <button class="filterbtn" onclick="filterResult()">Filter</button>
+        </div>
+
+
+
+        <div class="adduserdiv">
+            <div class="header">
+                <h2>Add a new user</h2>
+            </div>
+
+            <div class="inputsection">
+                <div class="inputgrp">
+                    <label for="name">Enter Name</label>
+                    <input size="60" id="uname" type="text">
+                </div>
+
+                <div class="inputgrp">
+                    <label for="name">Enter Profession</label>
+                    <input size="60" id="uprofe" type="text">
+                </div>
+
+                <div class="inputgrp">
+                    <label for="name">Enter Age</label>
+                    <input size="60" id="uage" type="text">
+                </div>
+            </div>
+            <button onclick="addNewUser()" class="addbtn">Add User</button>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
